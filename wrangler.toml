@@ -18,8 +18,8 @@ run_worker_first = ["/api/*"]
 # 表结构由 Worker 首次请求时自动 CREATE TABLE IF NOT EXISTS，无需手动跑 migration。
 [[d1_databases]]
 binding = "DB"
-database_name = "oci-helper-serverless"
-database_id = "b7440ae6-5fdd-473e-bb92-fa69f2de1005"
+database_name = "oci-helper-db"
+database_id = "210fd5c5-7bda-4569-9c8e-9cd38d95d667"
 migrations_dir = "migrations"
 
 [[durable_objects.bindings]]
